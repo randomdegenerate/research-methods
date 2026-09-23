@@ -1,0 +1,51 @@
+\documentclass{report}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage[chapter]{minted}
+\usepackage{biblatex}
+
+\title{Tutorial}
+\author{Sandil Kosgahakumbura}
+\date{21st Sept 2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\listoffigures
+\listoflistings
+
+\chapter{Just a Sample Chapter}
+\section{Introduction}
+\lipsum[2]
+
+\begin{table}
+    \centering
+    \begin{tabular}{ccc}
+
+    \hline
+    \multicolumn{3}{c}{Stable Version}\\
+    \hline
+        1 & 2 & 3\\
+        4 & 5 & 6\\
+        7 & 8 & 9\\
+    \end{tabular}
+    \caption{3x3 Table}
+    \label{tab:exampletable}
+\end{table}
+
+\section{Methodology}
+\lipsum[3]
+\section{Technology Review}
+\lipsum[3]
+\section{System Design}
+\lipsum[4]
+\section{System Evaluation}
+\lipsum[5]
+\section{Conclusion}
+\lipsum[6]
+
+
+\end{document}
+
