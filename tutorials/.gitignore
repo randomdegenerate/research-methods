@@ -1,7 +1,7 @@
 # IGNORE ALL FILES
 *
 
-# Except .tex
+# Except .tex and .pdf files
 !.gitignore
 !*.tex
 !*.pdf
