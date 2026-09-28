@@ -1,0 +1,24 @@
+\chapter{System Design} \label{cha:systemdesign}
+In your FYP dissertation, provide in this chapter a detailed explanation of the
+overall system architecture, i.e., the “how” of the project. Use UML, system
+architecture diagrams, screenshots, code snippets, and algorithms to illustrate
+your design.
+Code snippets must always be added as a listing, never as a figure or table.
+Listing \ref{lst:pythonProg} shows a Python program that calculates the factorial of a given
+number.
+\begin{listing}[h]
+    \begin{minted}{python}
+        #Calculate and print the factorial of n
+        n = int(input('Type a number: '))
+        if n < 0:
+        raise ValueError('You must enter a positive integer')
+        factorial = 1
+        for i in range(2, n + 1):
+        factorial *= i
+        print(factorial)
+    \end{minted}
+    \caption{Example of a Python program that reads a typed number, then calculates and prints its factorial.}
+    \label{lst:pythonProg}
+\end{listing}
+
+To calculate a factorial of any number you can make use of python as shown in the above Listing \ref{lst:pythonProg}.

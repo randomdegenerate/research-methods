@@ -1,0 +1,33 @@
+\documentclass{report}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage[chapter]{minted}
+\usepackage{biblatex}
+
+\title{Tutorial}
+\author{K Sandil Kosgahakumbura}
+\date{21st Sept 2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\listoffigures
+\listoftables
+\listoflistings
+
+\begin{abstract}
+    \lipsum[1]
+\end{abstract}
+
+\include{chapters/introduction}
+\include{chapters/methodology}
+\include{chapters/technologyreview}
+\include{chapters/systemdesign}
+\include{chapters/systemevaluation}
+\include{chapters/conclusion}
+
+
+\end{document}
+
